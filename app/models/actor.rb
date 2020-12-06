@@ -9,7 +9,28 @@ class Actor < ActiveRecord::Base
     def list_roles
         self.characters.first.name + " - " + self.shows.first.name
     end
-
-
-
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ # def full_name
+    #     first_name + " " + last_name
+    # end
+
+    # def list_roles
+    #     self.characters.first.name + " - " + self.shows.first.name
+    # end
+
